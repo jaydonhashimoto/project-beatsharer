@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="/assets/beatsharer.png"/>
+    <img src="/assets/beatsharer.png" width="200"/>
 </div>
 <h1 align="center">Beatsharer</h1>
 
