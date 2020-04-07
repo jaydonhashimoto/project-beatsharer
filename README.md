@@ -7,6 +7,17 @@
 Beatsharer is a platform where creative individuals are able to collaborate together to create unique and interesting songs. Users are able to listen to whatever combination of tracks they want to listen to. 
 </p>
 
+<h2>Table of Contents</h2>
+
+[Funtional Requirements](#fr)<br/>
+[Non-Functional Requirements](#nfr)<br/>
+[Technology and DevOps](#tad)<br/>
+[Diagrams](#d)<br/>
+[Risks and Challenges](#rac)<br/>
+[The Road Ahead](#tra)
+
+<a name="fr"></a>
+
 <h2>Functional Requirements</h2>
 <ul>
     <li>Login/Register</li>
@@ -15,12 +26,17 @@ Beatsharer is a platform where creative individuals are able to collaborate toge
     <li>Mix and Match Different Combinations of Contributions</li>
     <li>Create User Profiles</li>
 </ul>
+
+<a name="nfr"></a>
+
 <h2>Non-Functional Requirements</h2>
 <ul>
     <li>Error Handling and Validation</li>
     <li>Password Encryption</li>
     <li>Support Various Screen Sizes</li>
 </ul>
+
+<a name="tad"></a>
 
 <h2>Technologies and DevOps Used</h2>
 <ul>
@@ -30,8 +46,19 @@ Beatsharer is a platform where creative individuals are able to collaborate toge
     <li>Source Control with Git and pushed to Github</li>
 </ul>
 
+<a name="d"></a>
+
 <h2>Diagrams</h2>
+<p>User Auth UML Class Diagram</p>
 <img src="/assets/auth.png"/>
+
+<p>Collab UML Sequence Diagram</p>
+<img src="/assets/collabseq.png"/>
+
+<p>Physical Solution Diagram</p>
+<img src="/assets/physical.png"/>
+
+<a name="rac"></a>
 
 <h2>Risks and Challenges</h2>
 <ul>
@@ -45,6 +72,8 @@ Beatsharer is a platform where creative individuals are able to collaborate toge
         Hosting: Hosting the application in Heroku was fairly easy, but getting the production database up and running was frustrating. I had realized that my local machine was running PostgreSQL v.11 and Heroku uses v.12. So I had to delete the production DB and create a new one with a reverted version.
     </li>
 </ul>
+
+<a name="tra"></a>
 
 <h2>The Road Ahead</h2>
 <p>
