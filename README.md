@@ -31,7 +31,7 @@ Beatsharer is a platform where creative individuals are able to collaborate toge
 </ul>
 
 <h2>Diagrams</h2>
-![auth image](/assets/auth.png "Auth UML Class Diagram")
+<img src="/assets/auth.png"/>
 
 <h2>Risks and Challenges</h2>
 <ul>
